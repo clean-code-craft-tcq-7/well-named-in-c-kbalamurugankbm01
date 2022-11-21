@@ -1,6 +1,6 @@
 #include <stdio.h>
-#include "ColorCoding/ColorCoding.h"
-#include "Test/Test.h"
+#include "ColorCoding.h"
+#include "Test.h"
 
 int main() {
     testNumberToPair(4, WHITE, BROWN);
