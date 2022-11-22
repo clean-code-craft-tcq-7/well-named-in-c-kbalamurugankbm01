@@ -9,7 +9,8 @@ int main() {
     testPairToNumber(BLACK, ORANGE, 12);
     testPairToNumber(VIOLET, SLATE, 25);
 
-    printf("Hello World");
+    printf("\n*********Printing Pair Number and Pair Colours*********\n");
+    PrintColorAndPairNumber();
 
     return 0;
 }

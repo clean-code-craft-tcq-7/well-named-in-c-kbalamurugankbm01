@@ -34,3 +34,14 @@ int GetPairNumberFromColor(const ColorPair* colorPair) {
     return colorPair->majorColor * numberOfMinorColors +
             colorPair->minorColor + 1;
 }
+
+void PrintColorAndPairNumber(void) {
+    int pairNumber;
+    ColorPair colorPair;
+    char colorPairNames[MAX_COLORPAIR_NAME_CHARS];
+    for (pairNumber = 1; pairNumber <= MAXCOLORPAIRNUMBER; pairNumber++) {
+        colorPair = GetColorFromPairNumber(pairNumber);
+        ColorPairToString(&colorPair, colorPairNames);
+        printf("Pair Number = %d\tColor Pair = %s\n", pairNumber, colorPairNames);
+    }
+} 
