@@ -10,7 +10,7 @@ int main() {
     testPairToNumber(VIOLET, SLATE, 25);
 
     printf("\n*********Printing Pair Number and Pair Colours*********\n");
-    PrintColorAndPairNumber();
+    PrintPairNumberAndColorPair();
 
     return 0;
 }

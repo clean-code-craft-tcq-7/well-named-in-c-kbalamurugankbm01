@@ -19,6 +19,6 @@ typedef struct {
 extern void ColorPairToString(const ColorPair* colorPair, char* buffer);
 extern ColorPair GetColorFromPairNumber(int pairNumber);
 extern int GetPairNumberFromColor(const ColorPair* colorPair);
-extern void PrintColorAndPairNumber(void);
+extern void PrintPairNumberAndColorPair(void);
 
 #endif
