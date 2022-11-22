@@ -30,13 +30,13 @@ This manual is a mapping from the color-names to the corresponding numbers.
 Add a function that would format the color coding in a form that someone can print.
 Also resolve any coding guideline violations.
 
-### Files Structure
+## Files Structure:
 
-## Test
+### Test
 	Test.h
 	Test.c
-## ColorCoding
+### ColorCoding
 	ColorCoding.h
 	ColorCoding.c
-## Main
+### Main
 	main.c
